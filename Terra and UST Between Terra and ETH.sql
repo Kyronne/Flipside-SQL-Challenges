@@ -11,3 +11,4 @@ WHERE event_to = 'terra13yxhrk08qvdf5zdc9ss5mwsg5sf7zva9xrgwgc'
 AND dt > CURRENT_DATE - 30
 AND event_currency IN ('LUNA', 'UST')
 GROUP BY 2,3,4
+
